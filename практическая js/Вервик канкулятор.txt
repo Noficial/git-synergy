@@ -1,0 +1,64 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System;
+
+Calk jo = new Calk();
+jo.imput();
+jo.clo();
+jo.vs();
+jo.vsg();
+jo.ro();
+string nam = Console.ReadLine();
+if (nam == "+")
+{
+    jo.clo();
+}
+if (nam == "-")
+{
+    jo.vs();
+}
+if (nam == "*")
+{
+    jo.vsg();
+}
+if (nam == "/")
+{
+    jo.ro();
+}
+class Calk
+
+{
+    int a , b;
+    public void imput()
+    {
+        Console.WriteLine("¬ведите первое число");
+       a = Convert.ToInt32 (Console.ReadLine());
+        Console.WriteLine("¬ведите второе число");
+        b = Convert.ToInt32(Console.ReadLine());
+
+    }
+
+    public void clo()
+    {
+        Console.WriteLine(a + b); 
+
+    }
+    public void vs()
+    {
+        Console.WriteLine(a - b);
+
+    }
+    public void vsg ()
+    {
+        Console.WriteLine(a * b);
+
+    }
+    public void ro()
+    {
+        Console.WriteLine(a / b);
+
+    }
+}

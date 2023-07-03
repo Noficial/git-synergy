@@ -1,0 +1,135 @@
+//Практика 1
+//1
+//let pas;
+//let who = prompt('Кто пришел?', '');
+//if (who == "Админ") {
+//   pas= prompt('Пароль?')
+//
+//    if (pas == "Черный Властелин") {
+//        alert("Добро пожаловать!")
+//    }
+//    else if(pas == null){
+//        alert("Отмена")
+//    }
+//    else {
+//        alert("Пароль неверен")
+//    }
+//}
+//else if(who == null){
+//    alert("Отмена")
+//}
+//else {
+//
+//    alert('Я вас не знаю')
+//}
+
+//2
+
+// let num = prompt("Введите название станции", '' );
+// switch (num){
+//     case "Бердск":
+//         alert("Станция: Бердск Cтоимость проезда: 40 руб.")<img js1. = 'img' src = 'image1.jpg' /> ;
+       
+//         break;  
+//     case "Искитим":
+//         alert("Станция: Искитим Стоимость проезда: 60 руб");
+//         img.src = js2.imag;
+//     default:
+//         alert("Нет таких значений");
+// }
+
+//Практика 2 
+//1
+// for (let i=2; i < 11; i++)
+// {
+// alert(i++);
+// }
+
+//2
+
+// for( let i=0; i<3; i++)
+// {
+//   alert(`Number ${i}!`);
+// }
+
+// let i = 0;
+// while (i < 3){
+// alert(`Number ${i}!`);
+// i++
+// }
+ 
+// // 3
+// while(true){
+//     userName=prompt("Введите число больше 100","");
+//     if(userName>100){
+//      break;
+//       }
+//       alert("нет другое");
+//     } 
+//     alert("да");
+ 
+// 4
+// var arr = [2, 5, 9, 15, 0, 4, 10];
+// for (var i = 0; i < arr.length; i++) {
+// if (arr[i] > 0 && arr[i] < 11) {
+// alert(arr[i]);
+// }
+// }
+
+// 5
+
+
+// 6
+// function min(a, b) {
+//     if (a < b) {
+//       return a;
+//     } else {
+//       return b;
+//     }
+//   }
+
+// 7
+// function pow(x, n) {
+//     let result = x;
+  
+//     for (let i = 1; i < n; i++) {
+//       result *= x;
+//     }
+  
+//     return result;
+//   }
+  
+//   let x = prompt("x?", '');
+//   let n = prompt("n?", '');
+  
+//   if (n < 1) {
+//     alert(`Степень ${n} не поддерживается, используйте натуральное число`);
+//   } else {
+//     alert( pow(x, n) );
+//   }
+  
+// 8
+
+// 9
+// function test_prime(n)
+// {
+//   if (n===1)
+//   {
+//     return false;
+//   }
+//   else if(n === 2)
+//   {
+//     return true;
+//   }else
+//   {
+//     for(var x = 2; x < n; x++)
+//     {
+//       if(n % x === 0)
+//       {
+//         return false;
+//       }
+//     }
+//     return true;  
+//   }
+// }
+// console.log(test_prime(37));
